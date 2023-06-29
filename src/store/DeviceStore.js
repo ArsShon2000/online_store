@@ -16,10 +16,10 @@ export default class DeviceStore {
             {id: 4, name: 'Acer'}
         ]
         this._devices = [
-            {id: 1, name: "Iphone 14 Pro Max", price: 130000, rating: 5, img: SamsungImg},
-            {id: 2, name: "Iphone 14 Pro Max", price: 130000, rating: 5, img: SamsungImg},
-            {id: 3, name: "Iphone 14 Pro Max", price: 130000, rating: 5, img: SamsungImg},
-            {id: 4, name: "Iphone 14 Pro Max", price: 130000, rating: 5, img: SamsungImg}
+            {id: 1, name: "Samsung s23 Ultra", price: 130000, rating: 5, img: SamsungImg},
+            {id: 2, name: "Samsung s23 Ultra", price: 130000, rating: 5, img: SamsungImg},
+            {id: 3, name: "Samsung s23 Ultra", price: 130000, rating: 5, img: SamsungImg},
+            {id: 4, name: "Samsung s23 Ultra", price: 130000, rating: 5, img: SamsungImg}
         ]
         this._selectedType = {}
         this._selectedBrand = {}
