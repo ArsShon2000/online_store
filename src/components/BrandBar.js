@@ -5,12 +5,10 @@ import { Context } from '..';
 
 const BrandBar = observer(() => {
     const { device } = useContext(Context)
-
     return (
         <Col className="d-flex">
             {device.brands.map(brand =>
                 <Card
-                    
                     key={brand.id}
                     style={{ 'cursor': 'pointer' }}
                     className='p-3'

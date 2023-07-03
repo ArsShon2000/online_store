@@ -14,7 +14,7 @@ const NavBar = observer (() => {
         user.setIsAuth(false)
     }
 
-    console.log(user.isAuth)
+    console.log("Авторизован - ", user.isAuth)
     return (
         <Navbar bg="dark" data-bs-theme="dark">
             <Container>
